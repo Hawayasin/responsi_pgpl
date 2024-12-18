@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class DashboardPage implements OnInit {
 
   // Properti untuk menyimpan data yang akan digunakan pada dashboard
-  title: string = 'Dashboard Pemantauan Karbon';
+  title: string = 'Dashboard Rute Evakuasi';
   features: Array<any> = [
     {
-      title: 'Informasi CCS (Carbon Capture and Storage)',
-      description: 'Informasi umum terkait perkembangan teknologi untuk mengurangi emisi gas karbon menuju atmosfer.'
+      title: 'Informasi Rute berdasarkan kepadatan penduduk',
+      description: 'Informasi umum terkait rute yang dihubungkan dengan 2 titik'
     },
     {
-      title: 'Peta Distribusi Karbon',
-      description: 'Temukan area tempatmu berada dan ketahui besaran emisinya!'
+      title: 'Peta Kepadatan Penduduk',
+      description: 'Temukan Menunjukkan data kepadatan penduduk berasal dari data'
     },
     {
       title: 'Rekap Informasi Karbon',

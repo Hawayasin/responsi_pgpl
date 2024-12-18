@@ -1,6 +1,6 @@
 # C-Maps: Progressive Web App for Carbon Footprint and Emission Monitoring
 
-C-Maps is a progressive web application designed to track and monitor carbon footprints and emissions using geospatial technology. Developed by the Greenovate Team from Universitas Gadjah Mada, C-Maps provides real-time data on emissions across various regions in Indonesia, with a focus on supporting sustainable development and responsible environmental management.
+VJ Hero is a WebGIS that Visualization of Route that how to reach beetwen 2 point in capital city to show 
 
 ---
 
@@ -23,12 +23,12 @@ The application uses the following technologies:
 - **Google Earth Engine**: Geospatial analysis and visualization.
 
 ## Location Study
-The project focuses on monitoring emissions in these areas of Yogyakarta, Indonesia:
-- Kulon Progo
-- Sleman
-- Bantul
-- Kota Yogyakarta
-- Gunung Kidul
+The project focuses on monitoring emissions in these areas of Jakarta Capital Town Indonesia, that include the region of : 
+- North Jakarta
+- South Jakarta 
+- East Jakarta 
+- West Jakarta
+- Center Jakarta
 
 ## CO2 Data Analysis
 C-Maps categorizes CO and CO₂ emissions by source, including:
@@ -42,14 +42,6 @@ Emission data is visualized over time, showing that transportation is currently 
 - **Medium-term**: Regular updates and maintenance.
 - **Long-term**: API integration, hybrid app conversion, and advanced hosting.
 
-## Supervising Lecturer
-- **Bimo Putra Marlistya, S.Si., M.Sc.**
-
-## Team Members
-- Anisa Cahyanira
-- Laila Nur Azizah
-- Wulan Indahsari
-- Nonny Nur Alya
 
 ## References
 1. Global Carbon Atlas. (2022).
@@ -59,3 +51,4 @@ Emission data is visualized over time, showing that transportation is currently 
 ---
 
 For more details, please refer to the project documentation.
+# responsi_pgpl

@@ -1,7 +1,8 @@
 <header>
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
   <div class="brand">
-    <img src="assets/icon/c-maps-high-resolution-logo-transparent-Copy.png" alt="C-MAPS Logo" />
-    <h1>C-MAPS</h1>
+    <img src="assets/icon/vj-icon-transparant.png" alt="VJ Hero" />
+    <h1>VJ HERO</h1>
   </div>
 
   <button class="menu-icon" onclick="toggleMenu()">
@@ -31,30 +32,75 @@
 
 <body>
   <section class="hero">
-    <h1>Pemantauan Jejak Karbon dan Emisi</h1>
-    <h1>Berbasis Teknologi Geospasial</h1>
-    <p>Aplikasi pemantauan dan analisis kualitas udara berdasarkan emisi gas buang
-      di Daerah Istimewa Yogyakarta, Indonesia</p>
-    <button><a href= "http://localhost:8100/login" style="color: white; text-decoration: none;">Telusuri</a></button>
+    <h1>Pembuatan Perencanaan Jalur Evakuasi Berbasis Spasial</h1>
+    <p>Aplikasi Pembuatan Rute Evakuasi Kebakaran berdasarkan tingkat Kepadatan Penduduk Area Jakarta </p>
+    <button>
+      <a href="http://localhost:8100/login" style="color: rgb(5, 4, 4); text-decoration: none;">
+        <!-- Iconify Icon for "map" -->
+        <span class="iconify" data-icon="twemoji:map" style="font-size: 20px; margin-right: 8px;"></span>
+        Go To Map
+      </a>
+    </button>
+    
   </section>
 
   <section class="features">
-    <h2>Fitur Utama Website</h2>
+    <h2>Latar Belakang</h2>
     <div class="features-container">
-      <div class="feature-box" a routerLink="/data" >
-        <h3>Kalkulasi Emisi Karbon</h3>
-        <p>Menghitung emisi karbon berdasarkan jarak rute tertentu</p>
+      <div class="feature-box" a routerLink="/data">
+        <h3>Rendahnya Kesadaran Masyarakat</h3>
+        <p>kesadaran masyarakat terhadap ancaman kebakaran di permukiman masih tergolong rendah</p>
       </div>
       <div class="feature-box" a routerLink="/map-analyst">
-        <h3>Peta Analisis Menggunakan Google Earth Engine</h3>
-        <p>Analisis berdasarkan konsentrasi emisi yang tersebar di seluruh area Daerah Istimewa Yogyakarta disertai data time-series berupa grafik emisi</p>
+        <h3>Kepadatan Penduduk</h3>
+        <p>Kepadatan penduduk yang tinggi di sebuah kecamatan dapat meningkatkan risiko korban jiwa akibat kebakaran. Oleh karena itu, penting  untuk mengutamakan upaya pencegahan dan mitigasi agar lebih banyak nyawa dapat diselamatkan.</p>
       </div>
       <div class="feature-box" a routerLink="/map-analyst">
-        <h3>Leaflet Routing Machine</h3>
-        <p>Peta yang disertai rute lokasi terkini menuju lokasi tujuan</p>
+        <h3>Kejadian Bencana Kebakaran Lebih Marak dibandingkan Banjir di Perkotaan</h3>
+        <p>Kebakaran gedung dan permukiman justru lebih sering terjadi dibandingkan banjir. Data menunjukkan bahwa telah terjadi 2.105 kasus kebakaran di gedung dan permukiman sepanjang tahun 2023. </p>
       </div>
     </div>
   </section>
+  <br>
+  <section class="features-gallery">
+    <h2>Realitas Masyarakat</h2>
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto1.jpg" alt="Deskripsi Gambar 1" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto2.jpg" alt="Deskripsi Gambar 2" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto3.jpg" alt="Deskripsi Gambar 3" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto4.jpg" alt="Deskripsi Gambar 4" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto6.jpg" alt="Deskripsi Gambar 6" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto8.jpg" alt="Deskripsi Gambar 8" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto9.jpg" alt="Deskripsi Gambar 9" />
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/gallery/foto11.jpg" alt="Deskripsi Gambar 11" />
+      </div>
+      <!-- Tambahkan lebih banyak item galeri jika diperlukan -->
+    </div>
+  </section>
+  
+  <style>
+    /* Targeting all <h3> elements inside .features */
+    .features h3 {
+      color: orange; /* Set color to orange */
+    }
+    
+  </style>
+  
 
   <br>
 
@@ -62,54 +108,24 @@
   <section class="about-section">
     <div class="about-container">
       <div class="text-container">
-        <h2>Tentang</h2>
+        <h2>About This WebGIS VJ Hero</h2>
         <p>
-          C-Maps merupakan aplikasi hybrid yang berfokus pada penanganan emisi karbon dengan mengintegrasikan teknologi
-          geospasial yang mendukung beberapa fitur
+          WebGIS ini merupakan Solusi Edukasi Evakuasi dan Mitigasi Bencana terkait dengan kerawanan kebakaran di DKI Jakarta. Dari Data kepadatan populasi penduduk yang didapatkan dapat dilihat bahwa kerawanan 
+          bencana di area jakarta tidak hanya meliputi banjir, akan tetapi juga meliputi dampak kepadatan penduduk berupa rawannya kejadian kebakaran. Untuk itu edukasi ini penting diterapkan pada bidang 
+          pendidikan dan sosialisasi kebencanaan oleh BPBD sebagai pengetahuan dasar terhadap kewaspadaan dalam lingkungan padat penduduk.  
         </p>
         <p>
-          Fitur maps berupa kalkulasi emisi karbon yang dikeluarkan oleh jenis transportasi tertentu berdasarkan jarak
-          yang
-          didukung dengan fitur analisis yang melibatkan Google Earth Engine dengan analisis citra satelit. Selain itu,
-          peninjauan
-          emisi karbon diketahui dari sebaran vegetasi melalui analisis NDVI (Normalized
-          Different Vegetation Index) di setiap ruas jalan. Nilai NDVI yang rendah direpresentasikan dengan warna kuning
-          dan semakin tinggi nilai NDVI sebagai lokasi vegetasi padat untuk menyerap karbon, sehingga
-          diketahui lokasi-lokasi tertentu yang memerlukan penggalakan penanaman vegetasi penyerap karbon.
-        </p>
-        <p>
-          Membangun sebuah aplikasi hybrid berbasis teknologi geospasial yang bertujuan untuk memantau dan mengurangi
-          jejak karbon serta emisi karbon secara real-time di berbagai wilayah, guna mendukung pengambilan keputusan
-          yang tepat dan berkelanjutan. Aplikasi ini diharapkan dapat meningkatkan kesadaran masyarakat dan industri
-          terhadap perubahan iklim (SDG 13) serta mendorong inovasi dalam pengelolaan lingkungan dan infrastruktur yang
-          berkelanjutan(SDG 9).
+          Fitur maps meliputi kalkulasi rute dari dua titik dan penentuan analisis kepadatan penduduk dari yang padat hingga yang jarang. pengguna dapat memindahkan 2 marker untuk melakukan analisis rute yang dapat dilewati setelah melakukan login.
+          Adanya edukasi mitigasi bencana sesuai dengan poin sdgs ke 11 tentang kota dan komunitas yang berkelanjutan. Dalam hal ini dapat dikembangkan lebih lanjut menjadi konsep perencanaan icon kota tangguh bencana.
         </p>
       </div>
       <div class="image-container">
-        <img src="./assets/icon/c-maps-high-resolution-logo.jpeg" alt="C-Maps" />
+        <img src="./assets/icon/vj-icon-transparant.png" alt="Logo VJ Hero" />
     </div>
     </div>
   </section>
 
-  <br>
-  <section class="features-gallery">
-    <h2>Galeri</h2>
-    <div class="gallery-container">
-      <div class="gallery-item">
-        <img src="./assets/gallery/foto1.jpg" alt="Deskripsi Gambar 1" />
-      </div>
-      <div class="gallery-item">
-        <img src="./assets/gallery/foto2.png" alt="Deskripsi Gambar 2" />
-      </div>
-      <div class="gallery-item">
-        <img src="./assets/gallery/foto3.png" alt="Deskripsi Gambar 3" />
-      </div>
-      <div class="gallery-item">
-        <img src="./assets/gallery/foto4.png" alt="Deskripsi Gambar 4" />
-      </div>
-      <!-- Tambahkan lebih banyak item galeri jika diperlukan -->
-    </div>
-  </section>
+  
 
   <!-- <script>
   window.addEventListener('scroll', function() {
@@ -129,8 +145,8 @@
   <footer>
     <div class="footer-container">
       <div class="footer-left">
-        <h3>C-MAPS</h3>
-        <p>&copy; 2024 C-MAPS. All Rights Reserved.</p>
+        <h3>SIG</h3>
+        <p>&copy; 2024 SIG. All Rights Reserved</p>
       </div>
 
       <div class="footer-center">
@@ -145,16 +161,54 @@
       </div>
 
       <div class="footer-right">
-        <p>Follow Us</p>
+        <p>Contact Information</p>
         <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="http://www.youtube.com/@yasinmanikhawa"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/yasinmikha"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/yasin-manik-hawa-bb8944247/"><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
     </div>
   </footer>
+   <!-- Font Awesome CDN (add this in the <head> section or just before the closing </body>) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+      /* Social Icons Styling */
+      .social-icons a {
+        font-size: 24px;
+        margin-right: 15px;
+        color: #333; /* Icon color */
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+  
+      .social-icons a:hover {
+        color: #ff9900; /* Change color when hovered */
+      }
+  
+      /* Aligning footer content */
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f1f1f1;
+      }
+  
+      .footer-left, .footer-center, .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .footer-left p, .footer-center a, .footer-right p {
+        margin: 5px 0;
+      }
+  
+      .footer-right {
+        align-items: flex-end;
+      }
+    </style>
 
   <!-- <script>
     function toggleMenu() {

@@ -1,9 +1,9 @@
-$primary-color: #4CAF50;
-$header-bg-color: rgba(0, 0, 0, 0.6);
-$feature-bg-color: #f7f7f7;
+$primary-color: #d67b13;
+$header-bg-color: rgba(175, 186, 102, 0.6);
+$feature-bg-color: #000000;
 $text-color: #555;
 $white: #fff;
-$shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+$shadow: 0 9px 15px rgba(249, 215, 78, 0.521);
 $border-radius: 5px;
 $max-width: 1000px;
 
@@ -251,8 +251,8 @@ header {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #f0d46f;
+  color: #050505;
   padding: 20px 0;
   font-size: 0.9rem;
 
@@ -279,7 +279,7 @@ footer {
 
     p {
       margin: 5px 0;
-      color: #ccc;
+      color: #eb9233;
     }
   }
 
@@ -297,7 +297,7 @@ footer {
       justify-content: center;
 
       a {
-        color: #fff;
+        color: #f8d341;
         text-decoration: none;
         transition: color 0.3s;
 
@@ -319,7 +319,7 @@ footer {
       gap: 10px;
 
       a {
-        color: #fff;
+        color: #f5ae52;
         font-size: 1.2rem;
         transition: color 0.3s;
 
@@ -331,7 +331,7 @@ footer {
 
     p {
       margin-bottom: 10px;
-      color: #ccc;
+      color: #f39830;
     }
   }
 }
